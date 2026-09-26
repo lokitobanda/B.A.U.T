@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Descargar B.A.U.T.</title>
+
+    <link rel="icon" href="logo.png" type="image/png">
+    <link rel="stylesheet" href="estilos.css">
+
+    <style>
+
+        header { position: relative; z-index: 30; display: flex; align-items: center; padding: 14px 5%; background: #0b0b0b; color: white; box-shadow: 0 3px 18px rgba(0,0,0,.18); }
+        .logo { position: relative; display: flex; align-items: center; gap: 10px; color: #FF8C00; font-size: 1.15rem; font-weight: 700; }
+        .brand-menu { position: relative; color: #FFD400; font-size: .9rem; font-weight: 600; }
+        .brand-menu summary { display: flex; align-items: center; list-style: none; cursor: pointer; padding: 7px 9px; border-radius: 7px; }
+        .brand-menu summary::-webkit-details-marker { display: none; }
+        .brand-menu summary::after { content: ""; width: 7px; height: 7px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg) translateY(-2px); transition: transform .18s ease; }
+        .brand-menu[open] summary::after { transform: rotate(225deg) translate(-2px, -1px); }
+        .brand-menu summary:hover, .brand-menu summary:focus-visible { background: #FFD400; color: #0b0b0b; outline: none; }
+        .brand-menu-list { position: absolute; top: 100%; left: 0; z-index: 40; min-width: 190px; padding: 6px; background: #0b0b0b; border: 1px solid #343434; border-top: 0; border-radius: 0 0 8px 8px; box-shadow: 0 8px 22px rgba(0,0,0,.24); }
+        .brand-menu-list a { display: block; padding: 10px 12px; border-radius: 5px; color: #FFD400; text-decoration: none; font-size: .92rem; white-space: nowrap; }
+        .brand-menu-list a:hover, .brand-menu-list a:focus-visible { background: #242424; color: #FFD400; outline: 2px solid #FFD400; outline-offset: -2px; }
+
+        @media (max-width: 460px) { .brand-menu-list { left: auto; right: 0; } }
+
+        .download-box {
+            text-align: center;
+            padding: 60px 30px;
+            background: linear-gradient(
+                135deg,
+                #fff8e8,
+                #ffffff,
+                #ffe4a8
+            );
+            border-radius: 16px;
+        }
+
+        .app-logo {
+            width: 150px;
+            height: 150px;
+            object-fit: contain;
+            margin-bottom: 20px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background: #FFD400;
+            color: #0b0b0b;
+            padding: 15px 28px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 700;
+            margin-top: 15px;
+            transition: .2s;
+        }
+
+        .download-btn:hover {
+            background: #FF8C00;
+            transform: translateY(-3px);
+        }
+
+        .version {
+            color: #665f53;
+            margin-top: 15px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        B.A.U.T.
+        <details class="brand-menu">
+            <summary aria-label="Abrir menú de B.A.U.T." title="Menú de B.A.U.T."></summary>
+            <div class="brand-menu-list">
+                <a href="descargar.html">Descargar app</a>
+                <a href="informacion.html">Información general</a>
+                <a href="index.html">Inicio</a>
+            </div>
+        </details>
+        <span style="font-size:.8rem;color:#FFD400;">
+            acompañamiento virtual
+        </span>
+    </div>
+
+
+</header>
+
+
+<main>
+
+    <section class="section card download-box">
+
+        <img
+            src="logo.png"
+            class="app-logo"
+            alt="Logo de B.A.U.T."
+        >
+
+        <h1>Descargar B.A.U.T.</h1>
+
+        <p class="lead" style="margin-left:auto;margin-right:auto;">
+            Llevá B.A.U.T. con vos y accedé a herramientas de
+            acompañamiento emocional desde tu dispositivo.
+        </p>
+
+        <!-- Cuando tengan el APK, cambiá la ruta -->
+        <a
+            href="app/BAUT.apk"
+            download
+            class="download-btn"
+        >
+            📱 Descargar aplicación
+        </a>
+
+        <p class="version">
+            Versión 1.0.0 · Android
+        </p>
+
+    </section>
+
+
+    <section class="section card">
+
+        <h2>📱 Sobre la aplicación</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>🧠 Bienestar emocional</h3>
+                <p>
+                    Herramientas y recursos relacionados con el
+                    cuidado del bienestar emocional.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>💬 Acompañamiento</h3>
+                <p>
+                    Espacios pensados para brindar orientación
+                    y acompañamiento.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>📚 Recursos</h3>
+                <p>
+                    Información y materiales relacionados con
+                    salud y bienestar emocional.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="section card">
+
+        <h2>⚙️ Información de la aplicación</h2>
+
+        <p><strong>Nombre:</strong> B.A.U.T.</p>
+        <p><strong>Versión:</strong> 1.0.0</p>
+        <p><strong>Sistema:</strong> Android</p>
+        <p><strong>Tipo:</strong> Aplicación de acompañamiento emocional</p>
+
+    </section>
+
+
+    <section class="section card">
+
+        <h2>❓ ¿Necesitás ayuda?</h2>
+
+        <p>
+            Si tenés dificultades para utilizar la aplicación,
+            podés consultar nuestra sección de contacto.
+        </p>
+
+        <a href="B.A.U.T.html#contacto" class="btn">
+            Ir a Contacto
+        </a>
+
+    </section>
+
+</main>
+
+
+<footer>
+    <small>
+        B.A.U.T. © 2026 - Plataforma de acompañamiento emocional
+    </small>
+</footer>
+
+<script>
+    const brandMenu = document.querySelector('.brand-menu');
+    document.addEventListener('click', event => {
+        if (brandMenu.open && !brandMenu.contains(event.target)) brandMenu.open = false;
+    });
+    document.addEventListener('keydown', event => {
+        if (event.key === 'Escape' && brandMenu.open) {
+            brandMenu.open = false;
+            brandMenu.querySelector('summary').focus();
+        }
+    });
+</script>
+
+</body>
+</html>

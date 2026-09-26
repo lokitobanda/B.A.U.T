@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Información | B.A.U.T.</title>
+
+    <link rel="icon" href="logo.png" type="image/png">
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        header { position: relative; z-index: 30; display: flex; align-items: center; padding: 14px 5%; background: #0b0b0b; color: white; box-shadow: 0 3px 18px rgba(0,0,0,.18); }
+        .logo { position: relative; display: flex; align-items: center; gap: 10px; color: #FF8C00; font-size: 1.15rem; font-weight: 700; }
+        .brand-menu { position: relative; color: #FFD400; font-size: .9rem; font-weight: 600; }
+        .brand-menu summary { display: flex; align-items: center; list-style: none; cursor: pointer; padding: 7px 9px; border-radius: 7px; }
+        .brand-menu summary::-webkit-details-marker { display: none; }
+        .brand-menu summary::after { content: ""; width: 7px; height: 7px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg) translateY(-2px); transition: transform .18s ease; }
+        .brand-menu[open] summary::after { transform: rotate(225deg) translate(-2px, -1px); }
+        .brand-menu summary:hover, .brand-menu summary:focus-visible { background: #FFD400; color: #0b0b0b; outline: none; }
+        .brand-menu-list { position: absolute; top: 100%; left: 0; z-index: 40; min-width: 190px; padding: 6px; background: #0b0b0b; border: 1px solid #343434; border-top: 0; border-radius: 0 0 8px 8px; box-shadow: 0 8px 22px rgba(0,0,0,.24); }
+        .brand-menu-list a { display: block; padding: 10px 12px; border-radius: 5px; color: #FFD400; text-decoration: none; font-size: .92rem; white-space: nowrap; }
+        .brand-menu-list a:hover, .brand-menu-list a:focus-visible { background: #242424; color: #FFD400; outline: 2px solid #FFD400; outline-offset: -2px; }
+        @media (max-width: 460px) { .brand-menu-list { left: auto; right: 0; } }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        B.A.U.T.
+        <details class="brand-menu">
+            <summary aria-label="Abrir menú de B.A.U.T." title="Menú de B.A.U.T."></summary>
+            <div class="brand-menu-list">
+                <a href="descargar.html">Descargar app</a>
+                <a href="informacion.html">Información general</a>
+                <a href="index.html#home">Inicio</a>
+            </div>
+        </details>
+        <span style="font-size:.8rem;color:#FFD400;">
+            acompañamiento virtual
+        </span>
+    </div>
+</header>
+
+
+<main>
+
+    <section class="section card">
+        <h1>Conocé B.A.U.T.</h1>
+
+        <p class="lead">
+            B.A.U.T. es una aplicación de acompañamiento emocional
+            diseñada para brindar un espacio seguro, accesible y
+            respetuoso para las personas que necesitan orientación
+            y apoyo emocional.
+        </p>
+    </section>
+
+
+    <section class="section card">
+
+        <h2>¿Qué es B.A.U.T.?</h2>
+
+        <p>
+            B.A.U.T. es un proyecto tecnológico orientado al bienestar
+            emocional. Su objetivo es utilizar la tecnología como una
+            herramienta de acompañamiento y orientación.
+        </p>
+
+        <p>
+            La plataforma reúne diferentes recursos que pueden ayudar
+            al usuario a comprender mejor sus emociones, encontrar
+            herramientas de bienestar y conocer opciones de ayuda.
+        </p>
+
+    </section>
+
+
+    <section class="section card">
+
+        <h2>¿A quién está dirigida?</h2>
+
+        <p>
+            B.A.U.T. está pensada principalmente para personas que
+            buscan información, orientación o herramientas relacionadas
+            con el bienestar emocional.
+        </p>
+
+    </section>
+
+
+    <section class="section card">
+
+        <h2>¿Qué ofrece?</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>💬 Acompañamiento</h3>
+                <p>
+                    Espacios y herramientas pensadas para que el usuario
+                    pueda sentirse escuchado y acompañado.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🧘 Bienestar</h3>
+                <p>
+                    Recursos y actividades que pueden ayudar a desarrollar
+                    hábitos relacionados con el bienestar emocional.
+                </p>
+            </div>
+
+        
+            <div class="card">
+                <h3>🤝 Orientación</h3>
+                <p>
+                    Información para encontrar recursos de ayuda
+                    cuando una persona necesita apoyo adicional.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="section card">
+
+        <h2>¿Cómo funciona?</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>01. Ingresá</h3>
+                <p>
+                    Accedé a B.A.U.T. desde tu dispositivo.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>02. Explorá</h3>
+                <p>
+                    Conocé los diferentes recursos disponibles.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>03. Elegí</h3>
+                <p>
+                    Seleccioná las herramientas que mejor se adapten
+                    a tus necesidades.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>04. Buscá ayuda</h3>
+                <p>
+                    Cuando sea necesario, accedé a información sobre
+                    recursos profesionales y de emergencia.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="section card">
+
+        <h2>🔒 Privacidad y seguridad</h2>
+
+        <p>
+            La privacidad es un aspecto importante del proyecto.
+            B.A.U.T. busca proteger la información de sus usuarios
+            y proporcionar un entorno respetuoso y seguro.
+        </p>
+
+    </section>
+
+
+
+
+</main>
+
+<footer>
+    <small>
+        B.A.U.T. © 2026 - Plataforma de acompañamiento emocional
+    </small>
+</footer>
+
+<script>
+    const brandMenu = document.querySelector('.brand-menu');
+    document.addEventListener('click', event => {
+        if (brandMenu.open && !brandMenu.contains(event.target)) brandMenu.open = false;
+    });
+    document.addEventListener('keydown', event => {
+        if (event.key === 'Escape' && brandMenu.open) {
+            brandMenu.open = false;
+            brandMenu.querySelector('summary').focus();
+        }
+    });
+</script>
+
+</body>
+</html>
