@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>B.A.U.T. | Técnicas de bienestar</title>
+
+    <link rel="icon" href="logo.png" type="image/png">
+
+    <style>
+
+        :root {
+            --yellow: #FFD400;
+            --orange: #FF8C00;
+            --black: #0b0b0b;
+            --background: #fff9f1;
+            --white: #ffffff;
+            --gray: #555;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: var(--background);
+            color: var(--black);
+            line-height: 1.6;
+        }
+
+        /* ENCABEZADO */
+
+        header {
+            background: linear-gradient(135deg, var(--yellow), var(--orange));
+            text-align: center;
+            padding: 35px 20px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin-top: 5px;
+        }
+
+        /* CONTENIDO */
+
+        main {
+            max-width: 950px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .intro h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .intro p {
+            max-width: 750px;
+            margin: auto;
+            color: var(--gray);
+        }
+
+        /* TARJETAS */
+
+        .techniques {
+            display: grid;
+            grid-template-columns: repeat(
+                auto-fit,
+                minmax(250px, 1fr)
+            );
+
+            gap: 20px;
+        }
+
+        .technique {
+            background: var(--white);
+            padding: 25px;
+            border-radius: 18px;
+
+            border-top: 5px solid var(--orange);
+
+            box-shadow:
+                0 4px 15px rgba(0,0,0,0.08);
+
+            transition: transform 0.2s;
+        }
+
+        .technique:hover {
+            transform: translateY(-4px);
+        }
+
+        .icon {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .technique h3 {
+            margin-bottom: 8px;
+        }
+
+        .technique p {
+            color: var(--gray);
+        }
+
+        /* INFORMACIÓN */
+
+        .info {
+            margin-top: 35px;
+
+            background: #fff0c2;
+
+            padding: 22px;
+
+            border-radius: 12px;
+
+            border-left: 5px solid var(--orange);
+        }
+
+        .info h3 {
+            margin-bottom: 8px;
+        }
+
+        /* FUENTES */
+
+        .sources {
+            margin-top: 30px;
+
+            padding: 20px;
+
+            background: var(--white);
+
+            border-radius: 12px;
+
+            font-size: 0.9rem;
+        }
+
+        .sources h3 {
+            margin-bottom: 10px;
+        }
+
+        .sources a {
+            color: var(--black);
+            font-weight: bold;
+        }
+
+        /* FOOTER */
+
+        footer {
+            margin-top: 30px;
+
+            padding: 20px;
+
+            text-align: center;
+
+            background: var(--black);
+
+            color: white;
+
+            font-size: 0.85rem;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+    <h1>B.A.U.T.</h1>
+
+    <p>Técnicas de bienestar</p>
+
+</header>
+
+
+<main>
+
+
+    <section class="intro">
+
+        <h2>Pequeñas técnicas para el bienestar</h2>
+
+        <p>
+            Algunas prácticas sencillas pueden contribuir al cuidado
+            del bienestar físico y mental. Estas técnicas son
+            herramientas educativas y no sustituyen la atención
+            de un profesional de la salud.
+        </p>
+
+    </section>
+
+
+    <section class="techniques">
+
+
+        <!-- TÉCNICA 1 -->
+
+        <article class="technique">
+
+            <div class="icon">🌬️</div>
+
+            <h3>Respiración consciente</h3>
+
+            <p>
+                Prestá atención a tu respiración durante unos momentos.
+                Observar cómo entra y sale el aire puede ayudarte a
+                hacer una pausa y concentrarte en el presente.
+            </p>
+
+        </article>
+
+
+        <!-- TÉCNICA 2 -->
+
+        <article class="technique">
+
+            <div class="icon">🧘</div>
+
+            <h3>Atención plena</h3>
+
+            <p>
+                Intentá prestar atención al momento presente,
+                observando tus pensamientos, sensaciones y entorno
+                sin juzgarlos inmediatamente.
+            </p>
+
+        </article>
+
+
+        <!-- TÉCNICA 3 -->
+
+        <article class="technique">
+
+            <div class="icon">🚶</div>
+
+            <h3>Movimiento</h3>
+
+            <p>
+                Caminar, practicar un deporte o realizar otra actividad
+                física puede formar parte de un estilo de vida saludable
+                y contribuir al bienestar general.
+            </p>
+
+        </article>
+
+
+        <!-- TÉCNICA 4 -->
+
+        <article class="technique">
+
+            <div class="icon">😴</div>
+
+            <h3>Rutina de descanso</h3>
+
+            <p>
+                Mantener horarios regulares de descanso y crear un
+                ambiente adecuado para dormir puede favorecer hábitos
+                de sueño saludables.
+            </p>
+
+        </article>
+
+
+        <!-- TÉCNICA 5 -->
+
+        <article class="technique">
+
+            <div class="icon">📝</div>
+
+            <h3>Escribir lo que sentís</h3>
+
+            <p>
+                Escribir brevemente pensamientos o emociones puede
+                servir como una forma de reflexionar sobre experiencias
+                cotidianas.
+            </p>
+
+        </article>
+
+
+        <!-- TÉCNICA 6 -->
+
+        <article class="technique">
+
+            <div class="icon">💬</div>
+
+            <h3>Hablar con alguien</h3>
+
+            <p>
+                Compartir lo que estás viviendo con una persona de
+                confianza puede ayudarte a recibir apoyo y no afrontar
+                las dificultades en soledad.
+            </p>
+
+        </article>
+
+
+    </section>
+
+
+    <section class="info">
+
+        <h3>💡 Recordá</h3>
+
+        <p>
+            No todas las técnicas funcionan de la misma manera para
+            todas las personas. El objetivo es encontrar hábitos
+            saludables que puedan formar parte de tu vida cotidiana.
+        </p>
+
+    </section>
+
+
+    <section class="sources">
+
+        <h3>Fuentes de información</h3>
+
+        <p>
+            Contenido elaborado a partir de información de organismos
+            especializados en salud mental.
+        </p>
+
+        <br>
+
+        <a
+            href="https://www.who.int/es/news-room/fact-sheets/detail/adolescent-mental-health"
+            target="_blank">
+            Organización Mundial de la Salud
+        </a>
+
+        <br><br>
+
+        <a
+            href="https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health"
+            target="_blank">
+            National Institute of Mental Health
+        </a>
+
+    </section>
+
+
+</main>
+
+
+<footer>
+
+    <p>
+        B.A.U.T. — Información educativa sobre bienestar.
+    </p>
+
+    <p>
+        Este contenido no reemplaza la atención de profesionales
+        de la salud.
+    </p>
+
+</footer>
+
+
+</body>
+
+</html>

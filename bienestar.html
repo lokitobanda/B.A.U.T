@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>B.A.U.T. | Guía de bienestar</title>
+
+    <link rel="icon" href="logo.png" type="image/png">
+
+    <style>
+
+        :root {
+            --yellow: #FFD400;
+            --orange: #FF8C00;
+            --black: #0b0b0b;
+            --background: #fff9f1;
+            --white: #ffffff;
+            --gray: #555;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: var(--background);
+            color: var(--black);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--yellow), var(--orange));
+            text-align: center;
+            padding: 35px 20px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin-top: 5px;
+        }
+
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .intro h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .intro p {
+            color: var(--gray);
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 18px;
+        }
+
+        .card {
+            background: var(--white);
+            padding: 25px;
+            border-radius: 16px;
+            border-top: 5px solid var(--orange);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        .icon {
+            font-size: 2rem;
+            margin-bottom: 8px;
+        }
+
+        .card h3 {
+            margin-bottom: 8px;
+        }
+
+        .card p {
+            color: var(--gray);
+        }
+
+        .source {
+            margin-top: 30px;
+            padding: 20px;
+            background: #fff0c2;
+            border-radius: 12px;
+            font-size: 0.9rem;
+        }
+
+        .source a {
+            color: var(--black);
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 30px;
+            padding: 20px;
+            text-align: center;
+            background: var(--black);
+            color: white;
+            font-size: 0.85rem;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>B.A.U.T.</h1>
+    <p>Guía de bienestar</p>
+</header>
+
+<main>
+
+    <section class="intro">
+
+        <h2>Pequeños hábitos, grandes cuidados</h2>
+
+        <p>
+            El bienestar mental también se relaciona con los hábitos
+            cotidianos y el apoyo de otras personas.
+        </p>
+
+    </section>
+
+
+    <section class="cards">
+
+        <article class="card">
+
+            <div class="icon">😴</div>
+
+            <h3>Descanso</h3>
+
+            <p>
+                Mantener hábitos de sueño saludables es parte del cuidado
+                de la salud física y mental.
+            </p>
+
+        </article>
+
+
+        <article class="card">
+
+            <div class="icon">🏃</div>
+
+            <h3>Actividad física</h3>
+
+            <p>
+                Mantenerse físicamente activo puede contribuir al bienestar
+                general y al estado de ánimo.
+            </p>
+
+        </article>
+
+
+        <article class="card">
+
+            <div class="icon">👥</div>
+
+            <h3>Conexiones</h3>
+
+            <p>
+                Mantener vínculos con personas de confianza puede brindar
+                apoyo emocional.
+            </p>
+
+        </article>
+
+
+        <article class="card">
+
+            <div class="icon">🧠</div>
+
+            <h3>Conocerte</h3>
+
+            <p>
+                Reconocer lo que sentís puede ayudarte a comprender mejor
+                tus necesidades.
+            </p>
+
+        </article>
+
+
+        <article class="card">
+
+            <div class="icon">🎯</div>
+
+            <h3>Organización</h3>
+
+            <p>
+                Establecer prioridades puede ayudarte a organizar las
+                responsabilidades cotidianas.
+            </p>
+
+        </article>
+
+
+        <article class="card">
+
+            <div class="icon">💬</div>
+
+            <h3>Pedí apoyo</h3>
+
+            <p>
+                Hablar con alguien de confianza puede ser importante cuando
+                estás atravesando una situación difícil.
+            </p>
+
+        </article>
+
+    </section>
+
+
+    <section class="source">
+
+        <strong>Fuentes de información</strong>
+
+        <p>
+            Contenido elaborado a partir de información de la
+            Organización Mundial de la Salud y el National Institute
+            of Mental Health.
+        </p>
+
+        <br>
+
+        <a
+            href="https://www.who.int/es/news-room/fact-sheets/detail/adolescent-mental-health"
+            target="_blank">
+            Organización Mundial de la Salud
+        </a>
+
+        <br>
+
+        <a
+            href="https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health"
+            target="_blank">
+            National Institute of Mental Health
+        </a>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <p>
+        B.A.U.T. — Información educativa sobre bienestar.
+    </p>
+
+    <p>
+        Este contenido no reemplaza la atención de profesionales de la salud.
+    </p>
+
+</footer>
+
+</body>
+</html>
